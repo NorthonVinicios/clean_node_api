@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/NorthonVinicios/clean_node_api#readme",
   "devDependencies": {
+    "@types/node": "^14.0.5",
     "git-commit-msg-linter": "^2.4.2"
+  },
+  "dependencies": {
+    "nest": "^0.1.6"
   }
 }
