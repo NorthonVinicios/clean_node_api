@@ -8,11 +8,11 @@ describe('Signup Controller', () => {
                 email: "any_email@mail.com",
                 password: "any_password",
                 passwordConfirmation: "any_password",
-                
-
             }
         }
         const httpResponde = sut.handle(httpRequest)
         expect(httpResponde.statusCode).toBe(400)
+        expect(httpResponde.body).toEqual(new Error('missing param: name'))
+        
     })
 })
