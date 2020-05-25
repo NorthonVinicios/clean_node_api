@@ -4,7 +4,8 @@
   "description": "API Node Cleam",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
